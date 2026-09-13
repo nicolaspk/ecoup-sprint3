@@ -1,18 +1,11 @@
-import { Outlet } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
 export default function App() {
 return (
- 
-    <div className="bg-[#050816] text-[#ffffff] min-h-screen flex flex-col font-sans overflow-x-hidden">
-      <Header />
+    <div className="bg-[#050816] text-white min-h-screen flex flex-col font-sans overflow-x-hidden">
+<Header />
       
-      <main className="mt-[100px] p-[40px_5%] max-w-[1400px] mx-auto w-full flex-grow">
-        <Outlet /> 
-      </main>
 
-      <Footer />
-    </div>
-  );
-}
+<main className="mt-[100px] p-[40px_5%] max-w-[1400px] mx-auto w-full flex-grow">
+        <Outlet />
+</main>
+
+<Footer />
