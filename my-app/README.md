@@ -1,10 +1,4 @@
-Com a adição do Catálogo de Recompensas e a simplificação do projeto para garantir a nota máxima, o seu README.md precisa refletir exatamente a estrutura final que você tem agora.
- 
-Adicionei a página Recompensas.tsx na árvore de arquivos e incluí uma menção sobre o catálogo na descrição do projeto.
- 
-Copie e cole o texto abaixo no seu arquivo README.md:
- 
-Markdown
+
 
 # ECOUP - Gamificação Sustentável para SoulUp
  
