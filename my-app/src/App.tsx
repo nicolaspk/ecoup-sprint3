@@ -1,9 +1,11 @@
-import AppRoutes from './routes/AppRoutes';
+export default function App() {
+return (
+    <div className="bg-[#050816] text-white min-h-screen flex flex-col font-sans overflow-x-hidden">
+<Header />
+      
 
-function App() {
-  return (
-    <AppRoutes />
-  );
-}
+<main className="mt-[100px] p-[40px_5%] max-w-[1400px] mx-auto w-full flex-grow">
+        <Outlet />
+</main>
 
-export default App;
+<Footer />
