@@ -1,8 +1,7 @@
-import FeatureCard from '../components/FeatureCard';
+import FeatureCard from '../../components/Cards/FeatureCard';
 
 export default function Sobre() {
-return (
- 
+  return (
     <>
       <section className="bg-[#10172a] p-[30px] md:p-[40px] rounded-[12px] shadow-[0_20px_45px_rgba(0,0,0,0.35)] border border-white/5 mb-[35px]">
         <h2 className="text-white text-[2rem] md:text-[2.2rem] mb-[20px] border-b-[2px] border-[#00f5c8] inline-block pb-[10px] font-bold">Propósito e Visão Geral</h2>
@@ -41,5 +40,5 @@ return (
         </div>
       </section>
     </>
-);
+  );
 }

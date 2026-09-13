@@ -10,23 +10,22 @@ export default function Faq() {
     },
     {
       pergunta: "Como as minhas ações são validadas?",
-      resposta: "Você deve enviar um vídeo ou foto comprovando a ação sustentável (como reciclagem, uso de transporte público ou economia de recursos). O nosso sistema analisa o material utilizando algoritmos de reconhecimento para garantir a autenticidade e evitar fraudes antes de gerar a pontuação."
+      resposta: "Você deve enviar um vídeo ou foto comprovando a ação sustentável. O nosso sistema analisa o material utilizando algoritmos de reconhecimento para garantir a autenticidade e evitar fraudes antes de gerar a pontuação."
     },
     {
       pergunta: "Os meus dados estão seguros?",
-      resposta: "Sim. A ECOUP desenvolveu o sistema com rigorosas regras de segurança. Adotamos validação e sanitização de dados, proteção de endpoints e minimização de dados coletados, separando informações pessoais das métricas analíticas de impacto ambiental."
+      resposta: "Sim. A ECOUP desenvolveu o sistema com rigorosas regras de segurança. Adotamos validação e sanitização de dados, proteção de endpoints e minimização de dados coletados, separando informações pessoais das métricas analíticas."
     }
   ];
 
   return (
-
-    <section className="max-w-[900px] mx-auto bg-[#10172a] p-[30px] md:p-[40px] rounded-[12px] shadow-[0_20px_45px_rgba(0,0,0,0.35)] border border-white/5">
+    <section className="max-w-[900px] mx-auto bg-[#10172a] p-[30px] md:p-[40px] rounded-[12px] border border-white/5">
       <h2 className="text-white text-[2.2rem] mb-[20px] border-b-[2px] border-[#00f5c8] inline-block pb-[10px] font-bold">Perguntas Frequentes (FAQ)</h2>
       <p className="text-[#94a3b8] text-[1.1rem] mb-[40px]">Esclarecimentos gerais sobre o funcionamento do sistema de gamificação e os Pontos Ecoa.</p>
       
       <div className="flex flex-col gap-[20px]">
         {faqData.map((item, index) => (
-          <article key={index} className="flex flex-col md:flex-row items-center md:items-start gap-[20px] bg-[#050816] p-[25px] rounded-[12px] border border-white/5 border-l-[6px] border-l-[#00f5c8] shadow-[0_20px_45px_rgba(0,0,0,0.35)] transition-all duration-250 hover:translate-x-[10px] hover:border-[#00f5c8] hover:shadow-[0_0_30px_rgba(0,245,200,0.25)]">
+          <article key={index} className="flex flex-col md:flex-row items-center md:items-start gap-[20px] bg-[#050816] p-[25px] rounded-[12px] border border-white/5 border-l-[6px] border-l-[#00f5c8]">
             <div className="text-[2.2rem] flex-shrink-0 mt-[5px]" aria-hidden="true">💡</div>
             <div className="text-center md:text-left">
               <h3 className="text-white text-[1.3rem] mb-[10px] font-bold">{item.pergunta}</h3>
