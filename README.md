@@ -72,7 +72,7 @@ my-app/
 
 1. **Clone este repositório:**
 ```bash
-git clone (https://github.com/nicolaspk/ecoup-gamificacao-sprint3.git)
+git clone (https://github.com/nicolaspk/ecoup-sprint3)
 
 ```
 
