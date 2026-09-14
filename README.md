@@ -104,8 +104,7 @@ npm run dev
 🔗 **Links Importantes:**
 
 * **Repositório GitHub:** [Acessar Código Fonte](https://github.com/nicolaspk/ecoup-gamificacao-sprint3)
-* **Apresentação em Vídeo:** [INSERIR LINK DO YOUTUBE AQUI]
-
+* **Apresentação em Vídeo:** https://youtu.be/fNAN-4qcYnM
 ---
 
 
